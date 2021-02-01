@@ -1,0 +1,290 @@
+[
+  {
+    "id": 11,
+    "theme": "Soin du Corps",
+    "nom": "Soin Douceur à la Rose",
+    "infos": "Pour une peau douce et sublimée",
+    "durée": "1h15",
+    "tarif": "70 €",
+    "forfait": [false, "", ""]
+  },
+  {
+    "id": 12,
+    "theme": "Soin du Corps",
+    "nom": "Drainage Lympho-énergétique",
+    "infos": "Elimination des toxines et rééquilibrage des énergies",
+    "durée": "1h",
+    "tarif": "65 €",
+    "forfait": [false, "", ""]
+  },
+  {
+    "id": 13,
+    "theme": "Soin du Corps",
+    "nom": "Soin Minceur",
+    "infos": "Affinement et remodelage de la silhouette",
+    "durée": "1h15",
+    "tarif": "70 €",
+    "forfait": [true, "Forfait 5 séances', '270 €"]
+  },
+  {
+    "id": 14,
+    "theme": "Soin du Corps",
+    "nom": "Soin Ventre J-LYMPH® Soin électro-drainage",
+    "infos": "Remodelage ciblé de la silhouette par une technique drainante utilisant un appareil muni d'un système d'aspiration par ventouses",
+    "durée": "30mn",
+    "tarif": "35 €",
+    "forfait": [true, "Forfait 6 séances", "200 €"]
+  },
+  {
+    "id": 15,
+    "theme": "Soin du Corps",
+    "nom": "Soin 1 partie du Corps J-LYMPH® Soin électro-drainage",
+    "infos": "Remodelage ciblé de la silhouette par une technique drainante utilisant un appareil muni d'un système d'aspiration par ventouses",
+    "durée": "40mn",
+    "tarif": "50 €",
+    "forfait": [true, "Forfait 6 séances", "250 €"]
+  },
+  {
+    "id": 21,
+    "theme": "Soin du Visage",
+    "nom": "Soin personnalisé relaxant",
+    "infos": "Adapté à chaque type de peau",
+    "durée": "1h15",
+    "tarif": "70 €",
+    "forfait": [false, "", ""]
+  },
+  {
+    "id": 22,
+    "theme": "Soin du Visage",
+    "nom": "Soin Visage Liftant",
+    "infos": "Pour des traits reposés et un effet rajeunissant tout en douceur",
+    "durée": "30mn",
+    "tarif": "40 €",
+    "forfait": [false, "", ""]
+  },
+  {
+    "id": 23,
+    "theme": "Soin du Visage",
+    "nom": "Soin Lift Méthode Josiane Laure",
+    "infos": "Soin anti-relâchement combinant électroponcture et drainage énergétique",
+    "durée": "1h15",
+    "tarif": "75 €",
+    "forfait": [true, "Forfait 5 séances", "330 €"]
+  },
+  {
+    "id": 24,
+    "theme": "Soin du Visage",
+    "nom": "Soin contour des yeux",
+    "infos": "Soin anti-poches et anti-rides",
+    "durée": "30mn",
+    "tarif": "35 €",
+    "forfait": [false, "", ""]
+  },
+  {
+    "id": 25,
+    "theme": "Soin du Visage",
+    "nom": "Soin Wish Pro : cure de 6 soins anti-âge",
+    "infos": "Corrige les imperfections de la peau qui paraît immédiatement plus jeune, plus ferme et plus saine",
+    "durée": "30mn par séance",
+    "tarif": "360 €",
+    "forfait": [false, "", ""]
+  },
+  {
+    "id": 26,
+    "theme": "Soin du Visage",
+    "nom": "Soin Wish Pro : Soin Jeunesse",
+    "infos": "1 peeling + 1 infusion",
+    "durée": "1h",
+    "tarif": "95 €",
+    "forfait": [false, "", ""]
+  },
+  {
+    "id": 31,
+    "theme": "Relaxation",
+    "nom": "Relaxation par le toucher",
+    "infos": "Relâche les blocages et les tensions qui limitent votre potentiel vital",
+    "durée": "1h",
+    "tarif": "65 €",
+    "forfait": [false, "", ""]
+  },
+  {
+    "id": 32,
+    "theme": "Relaxation",
+    "nom": "Modelage aux huiles essentielles",
+    "infos": "Pour une détente et un bien-être assurés",
+    "durée": "1h",
+    "tarif": "65 €",
+    "forfait": [false, "", ""]
+  },
+  {
+    "id": 33,
+    "theme": "Relaxation",
+    "nom": "Massage à 4 mains",
+    "infos": "Pour une relaxation extrême",
+    "durée": "1h",
+    "tarif": "95 €",
+    "forfait": [false, "", ""]
+  },
+  {
+    "id": 34,
+    "theme": "Relaxation",
+    "nom": "Modelage Chinois",
+    "infos": "Travail sur les méridiens et les points d'acupuncture pour stimuler le métabolisme, rééquilibrer les énergies et se recentrer",
+    "durée": "1h",
+    "tarif": "65 €",
+    "forfait": [false, "", ""]
+  },
+  {
+    "id": 35,
+    "theme": "Relaxation",
+    "nom": "Modelage Visage ou Dos",
+    "infos": "",
+    "durée": "30mn",
+    "tarif": "35 €",
+    "forfait": [false, "", ""]
+  },
+  {
+    "id": 36,
+    "theme": "Relaxation",
+    "nom": "Evasion Extrême",
+    "infos": "Pieds, mains, visage",
+    "durée": "45mn",
+    "tarif": "50 €",
+    "forfait": [false, "", ""]
+  },
+  {
+    "id": 41,
+    "theme": "Epilation",
+    "nom": "Jambes complètes",
+    "infos": "",
+    "durée": "",
+    "tarif": "30 €",
+    "forfait": [false, "", ""]
+  },
+  {
+    "id": 42,
+    "theme": "Epilation",
+    "nom": "Demi jambes",
+    "infos": "",
+    "durée": "",
+    "tarif": "20 €",
+    "forfait": [false, "", ""]
+  },
+  {
+    "id": 43,
+    "theme": "Epilation",
+    "nom": " Cuisses",
+    "infos": "",
+    "durée": "",
+    "tarif": "25 €",
+    "forfait": [false, "", ""]
+  },
+  {
+    "id": 44,
+    "theme": "Epilation",
+    "nom": "Bras",
+    "infos": "",
+    "durée": "",
+    "tarif": "16 €",
+    "forfait": [false, "", ""]
+  },
+  {
+    "id": 45,
+    "theme": "Epilation",
+    "nom": "Aisselles",
+    "infos": "",
+    "durée": "",
+    "tarif": "12 €",
+    "forfait": [false, "", ""]
+  },
+  {
+    "id": 46,
+    "theme": "Epilation",
+    "nom": "Maillot Brésilien",
+    "infos": "",
+    "durée": "",
+    "tarif": "17 €",
+    "forfait": [false, "", ""]
+  },
+  {
+    "id": 47,
+    "theme": "Epilation",
+    "nom": "Maillot intégral",
+    "infos": "",
+    "durée": "",
+    "tarif": "30 €",
+    "forfait": [false, "", ""]
+  },
+  {
+    "id": 48,
+    "theme": "Epilation",
+    "nom": "Lèvres + menton",
+    "infos": "",
+    "durée": "",
+    "tarif": "10 €",
+    "forfait": [false, "", ""]
+  },
+  {
+    "id": 49,
+    "theme": "Epilation",
+    "nom": "Sourcils ligne complète",
+    "infos": "",
+    "durée": "",
+    "tarif": "15 €",
+    "forfait": [false, "", ""]
+  },
+  {
+    "id": 51,
+    "theme": "Mains et Pieds",
+    "nom": "Soin des mains",
+    "infos": "",
+    "durée": "",
+    "tarif": "30 €",
+    "forfait": [false, "", ""]
+  },
+  {
+    "id": 52,
+    "theme": "Mains et Pieds",
+    "nom": "Beauté des mains",
+    "infos": "",
+    "durée": "",
+    "tarif": "30 €",
+    "forfait": [false, "", ""]
+  },
+  {
+    "id": 53,
+    "theme": "Mains et Pieds",
+    "nom": "Soin des pieds",
+    "infos": "",
+    "durée": "",
+    "tarif": "30 €",
+    "forfait": [false, "", ""]
+  },
+  {
+    "id": 54,
+    "theme": "Mains et Pieds",
+    "nom": "Beauté des pieds",
+    "infos": "",
+    "durée": "",
+    "tarif": "30 €",
+    "forfait": [false, "", ""]
+  },
+  {
+    "id": 61,
+    "theme": "Teinture",
+    "nom": "Teinture de cils",
+    "infos": "",
+    "durée": "",
+    "tarif": "20 €",
+    "forfait": [false, "", ""]
+  },
+  {
+    "id": 62,
+    "theme": "Teinture",
+    "nom": "Teinture des sourcils",
+    "infos": "",
+    "durée": "",
+    "tarif": "10 €",
+    "forfait": [false, "", ""]
+  }
+]
