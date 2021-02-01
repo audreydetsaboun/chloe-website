@@ -1,5 +1,6 @@
 // == Import npm
 import React from "react";
+import './styles.scss';
 
 import Header from "../Header";
 import Philosophie from "../Philosophie";
