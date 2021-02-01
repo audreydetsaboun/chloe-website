@@ -1,8 +1,23 @@
 .bandeau {
-    background-color: grey;
-    color: purple;
+    background-color: #FC83CE;
+    color: #fff;
+    font-size: 1.2em;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0.5em 0 0.5em 0;
 }
 
 .tel-logo{
-    width: 100px;
+    height: 30px;
+    margin-right: 3px;
+    margin-left: 10px;
+}
+
+.tel-number {
+    margin-right: 3em;
+}
+
+.adresse {
+    color: #000;
 }

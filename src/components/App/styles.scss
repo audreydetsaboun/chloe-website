@@ -1,0 +1,13 @@
+@use 'reset';
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+p, html {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
