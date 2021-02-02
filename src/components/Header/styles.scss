@@ -4,20 +4,24 @@
     font-size: 1.2em;
     display: flex;
     align-items: center;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     padding: 0.5em 0 0.5em 0;
+    margin-bottom: 1em;
 }
 
-.tel-logo{
+.header-phone_logo, .header-adresse_logo {
     height: 30px;
     margin-right: 3px;
     margin-left: 10px;
 }
 
-.tel-number {
-    margin-right: 3em;
+
+.header-address {
+    color: #000;
+    margin-left: 2.5em;
 }
 
-.adresse {
-    color: #000;
+.header-title {
+    font-size : 2em;
+    text-align: center;
 }

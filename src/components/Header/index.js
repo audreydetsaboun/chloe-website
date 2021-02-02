@@ -1,17 +1,24 @@
 import React from "react";
 import telephone from './telephone.png';
+import adresse from './pointeur-adresse.png';
 import './styles.scss';
 
 const Header = () => (
     <header>
         <div className="bandeau">
-        <img src={telephone} className="tel-logo" alt="tel-logo" />
-        <p className="tel-number">01 43 24 28 80</p>
-        <p className="adresse">215 av. Pierre Brossolette, 94170 Le Perreux-sur-Marne</p>
+            <div className="header-bandeau_tel">
+                <img src={telephone} className="header-phone_logo" alt="téléphone" />
+                 <p className="header-phone_number">01 43 24 28 80</p>
+            </div>
+
+            <div className="header-bandeau_adresse">
+                <img src={adresse} className="header-adresse_logo" alt="adresse" />
+                <p className="header-address">215 av. Pierre Brossolette, 94170 Le Perreux-sur-Marne</p>
+            </div>
         </div>
 
         <h1 className="header-title">Institut Chloé</h1>
-        <h2>Votre institut de beauté à Le Perreux-sur-Marne</h2>
+        <h2 className="header-subtitle">Votre institut de beauté à Le Perreux-sur-Marne</h2>
 
         <nav>
             <ul>
