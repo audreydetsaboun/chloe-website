@@ -1,23 +1,43 @@
 header {
     width: 100vw;
+    margin-bottom: 2rem;
 }
 
 /////// BANDEAU TELEPHONE ET ADRESSE ///////
 .bandeau {
     background-color: #FC83CE;
-    color: #fff;
-    font-size: 1.2rem;
+    color: #000;
+    font-size: 1rem;
     padding: 0.5rem 0 0.5rem 0;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    margin-bottom: 2rem;;
+   justify-content: space-between;
 }
 
-.header-bandeau_tel, .header-bandeau_adresse {
+
+@media screen and (max-width:850px) {
+    header .header-bandeau_adresse {
+        display:none;
+    }
+}
+
+@media screen and (max-width:400px) {
+    header .header-bandeau_tel {
+        display:none;
+    }
+}
+
+
+.header-bandeau_tel, .header-bandeau_adresse, .header-bandeau_name {
     display: flex;
     align-items: center;
     margin: 0 1rem 0 1rem;
+}
+
+.header-bandeau_name {
+    color: #fff;
+    font-size: 1.2rem;
 }
 
 .header-phone_logo, .header-adresse_logo {
@@ -31,6 +51,39 @@ header {
 .header-adresse_logo {
     margin-right: 0.8rem;
 }
+
+
+/////// NAV /////////
+.header-nav {
+    background-color: rgb(230, 228, 228);
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.header-nav_list {
+    display: flex;
+    justify-content: center;
+    
+
+    li{
+        padding: 0.6rem 1rem;
+        font-weight: 300;
+    }
+
+    li:hover {
+        background-color:#fff;
+        color:#FC83CE;
+        transition-duration: 0.5s;
+        font-size: 1.3rem;
+    }
+
+    li:active {
+        font-weight: 400;
+        transition-duration: 0s;
+    }
+}
+
+
 
 /////// TITRE ET SOUS TITRE ////////
 .header-chloe_logo{
@@ -55,31 +108,5 @@ header {
 
     padding-bottom: 2rem;
     //border-bottom: solid 3px #888;
-}
-
-/////// NAV /////////
-.header-nav {
-    background-color: rgb(230, 228, 228);
-    font-size: 1.2rem;
-    margin-bottom: 2rem;
-}
-
-.header-nav_list {
-    display: flex;
-    justify-content: center;
-
-    li{
-        padding: 1rem;
-    }
-
-    li:hover {
-        background-color:#fff;
-        color:#FC83CE;
-        transition-duration: 0.5s;
-    }
-
-    li:active {
-        font-weight: bold;
-    }
 }
 

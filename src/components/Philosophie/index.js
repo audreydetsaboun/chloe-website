@@ -1,7 +1,7 @@
 import React from "react";
 
 const Philosophie = () => (
-    <div className="Philosophie">
+    <div className="philosophie" id="philosophie">
         <h3>La Philosophie de <strong>l'Institut Chloé</strong></h3>
 
         <p>
