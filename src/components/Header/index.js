@@ -1,6 +1,7 @@
 import React from "react";
 import telephone from './telephone.png';
 import adresse from './pointeur-adresse.png';
+import chloe from './chloe-logo.png';
 import './styles.scss';
 
 const Header = () => (
@@ -17,6 +18,7 @@ const Header = () => (
             </div>
         </div>
 
+        <img src={chloe} className="header-chloe_logo" alt="" />
         <h1 className="header-title">Institut Chloé</h1>
         <h2 className="header-subtitle">Votre institut de beauté à Le Perreux-sur-Marne</h2>
 

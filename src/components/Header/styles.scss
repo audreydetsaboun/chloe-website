@@ -2,18 +2,18 @@
 .bandeau {
     background-color: #FC83CE;
     color: #fff;
-    font-size: 1.2em;
-    padding: 0.5em 0 0.5em 0;
+    font-size: 1.2rem;
+    padding: 0.5rem 0 0.5rem 0;
     display: flex;
     align-items: center;
     flex-wrap: nowrap;
-    margin-bottom: 1em;;
+    margin-bottom: 2rem;;
 }
 
 .header-bandeau_tel, .header-bandeau_adresse {
     display: flex;
     align-items: center;
-    margin: 0 1em 0 1em;
+    margin: 0 1rem 0 1rem;
 }
 
 .header-phone_logo, .header-adresse_logo {
@@ -21,15 +21,35 @@
 }
 
 .header-phone_logo {
-    margin-right: 0.5em;
+    margin-right: 0.5rem;
 }
 
 .header-adresse_logo {
-    margin-right: 0.8em;
+    margin-right: 0.8rem;
 }
 
 /////// TITRE ET SOUS TITRE ////////
-.header-title {
-    font-size : 2em;
-    text-align: center;
+.header-chloe_logo{
+    height:100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
+
+.header-title {
+    font-size : 3rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    color: #fc83ce;
+}
+
+.header-subtitle {
+    font-size:2rem;
+    text-align: center;
+    font-style: italic;
+    color: #888;
+
+    padding-bottom: 2rem;
+    //border-bottom: solid 3px #888;
+}
+
