@@ -10,7 +10,7 @@ const Header = () => (
         <p className="adresse">215 av. Pierre Brossolette, 94170 Le Perreux-sur-Marne</p>
         </div>
 
-        <h1>Institut Chloé</h1>
+        <h1 className="header-title">Institut Chloé</h1>
         <h2>Votre institut de beauté à Le Perreux-sur-Marne</h2>
 
         <nav>
