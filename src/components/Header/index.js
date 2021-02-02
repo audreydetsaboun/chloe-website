@@ -22,15 +22,15 @@ const Header = () => (
         <h1 className="header-title">Institut Chloé</h1>
         <h2 className="header-subtitle">Votre institut de beauté à Le Perreux-sur-Marne</h2>
 
-        <nav>
-            <ul>
-                <li>Philosophie</li>
-                <li>Prestations</li>
-                <li>Ateliers</li>
-                <li>Marques</li>
-                <li>Tarifs</li>
-                <li>Témoignages</li>
-                <li>Contact</li>
+        <nav className="header-nav">
+            <ul className="header-nav_list">
+                <li><a href="#philosophie">Philosophie</a></li>
+                <li><a href="#prestations">Prestations</a></li>
+                <li><a href="#ateliers">Ateliers</a></li>
+                <li><a href="#marques">Marques</a></li>
+                <li><a href="#tarifs">Tarifs</a></li>
+                <li><a href="#avis">Témoignages</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>

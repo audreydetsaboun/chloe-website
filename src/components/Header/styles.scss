@@ -1,3 +1,7 @@
+header {
+    width: 100vw;
+}
+
 /////// BANDEAU TELEPHONE ET ADRESSE ///////
 .bandeau {
     background-color: #FC83CE;
@@ -6,7 +10,7 @@
     padding: 0.5rem 0 0.5rem 0;
     display: flex;
     align-items: center;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     margin-bottom: 2rem;;
 }
 
@@ -51,5 +55,31 @@
 
     padding-bottom: 2rem;
     //border-bottom: solid 3px #888;
+}
+
+/////// NAV /////////
+.header-nav {
+    background-color: rgb(230, 228, 228);
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.header-nav_list {
+    display: flex;
+    justify-content: center;
+
+    li{
+        padding: 1rem;
+    }
+
+    li:hover {
+        background-color:#fff;
+        color:#FC83CE;
+        transition-duration: 0.5s;
+    }
+
+    li:active {
+        font-weight: bold;
+    }
 }
 
