@@ -3,6 +3,11 @@ header {
     margin-bottom: 2rem;
 }
 
+/* fixer le bandeau et la barre de nav */
+.header-fixed {
+    position:fixed;
+}
+
 /////// BANDEAU TELEPHONE ET ADRESSE ///////
 .bandeau {
     background-color: #FC83CE;
@@ -13,21 +18,8 @@ header {
     align-items: center;
     flex-wrap: wrap;
    justify-content: space-between;
+   width: 100vw;
 }
-
-
-@media screen and (max-width:850px) {
-    header .header-bandeau_adresse {
-        display:none;
-    }
-}
-
-@media screen and (max-width:400px) {
-    header .header-bandeau_tel {
-        display:none;
-    }
-}
-
 
 .header-bandeau_tel, .header-bandeau_adresse, .header-bandeau_name {
     display: flex;
@@ -44,12 +36,21 @@ header {
     height: 30px;
 }
 
-.header-phone_logo {
+.header-phone_logo, .header-adresse_logo {
     margin-right: 0.5rem;
 }
 
-.header-adresse_logo {
-    margin-right: 0.8rem;
+/* media queries pour le bandeau */
+@media screen and (max-width:850px) {
+    header .header-bandeau_adresse {
+        display:none;
+    }
+}
+
+@media screen and (max-width:400px) {
+    header .header-bandeau_tel {
+        display:none;
+    }
 }
 
 
@@ -86,6 +87,10 @@ header {
 
 
 /////// TITRE ET SOUS TITRE ////////
+
+.header-not_fixed{
+    padding-top:7.5rem;
+}
 .header-chloe_logo{
     height:100px;
     display: block;
