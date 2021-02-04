@@ -1,8 +1,12 @@
 import React from "react";
 import telephone from './telephone.png';
 import adresse from './pointeur-adresse.png';
-import chloe from './chloe-logo.png';
 import chloewhite from './chloe-white-logo.png';
+import photo1 from './photo1.jpeg';
+import photo2 from './photo2.jpg';
+import photo3 from './photo3.jpeg';
+import photo4 from './photo4.png';
+import photo5 from './photo5.jpeg';
 import './styles.scss';
 
 const Header = () => (
@@ -38,8 +42,14 @@ const Header = () => (
             </nav>
         </div>
 
-        <div className="header-not_fixed">
-            
+        <div className="header-slider">
+            <figure>
+                <img src={photo1} className="photo1" alt="massage du dos"/>
+                <img src={photo2} className="photo2" alt="produits ambiance des alpes"/>
+                <img src={photo3} className="photo3" alt="huiles essentielles"/>
+                <img src={photo4} className="photo4" alt="soin du visage"/>
+                <img src={photo5} className="photo5" alt="maquillage"/>
+            </figure>
         </div>
         
     </header>
